@@ -6,3 +6,5 @@ from pycaret.datasets import get_data
 insurance = get_data('insurance')
 
 
+
+
