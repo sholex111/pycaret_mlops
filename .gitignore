@@ -1,8 +1,10 @@
 /.env
 
+myenv310/
+
 myenv/
 
-*.ipynb
+*.ipynba
 
 *.log
 

@@ -1,0 +1,40 @@
+
+#  Create a Virtual Environment
+python -m venv myenv
+
+
+#  Activate the Virtual Environment
+myenv\Scripts\activate
+
+
+#deactivate the virtual Environment
+deactivate
+
+
+#  Use the Remove-Item cmdlet with the -Recurse and -Force flags to delete the folder and its contents (If needed)
+Remove-Item -Recurse -Force myenv
+
+
+#  Verify deletion
+Get-ChildItem
+
+#check for python 3.10
+& "C:\Program Files\Python310\python.exe" --version
+
+
+#create a python 3.10 virtual environment
+&"C:\Program Files\Python310\python.exe" -m venv myenv310
+
+#activate virtual environment
+.\myenv310\Scripts\Activate
+
+#deactivate virtual environment
+deactivate
+
+#check system path
+echo $env:PATH
+
+
+
+
+
